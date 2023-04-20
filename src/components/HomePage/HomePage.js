@@ -166,7 +166,7 @@ const HomePage = () => {
           <Stack
             direction={"row"}
             justifyContent={"space-between"}
-            sx={{ padding: 3 }}
+            sx={{ padding: 2 }}
           >
             <Heading />
             <Stack direction={"row"} gap={1.5} style={{ alignItems: "center" }}>
@@ -174,7 +174,7 @@ const HomePage = () => {
               <LearnMoreLight logIn={logIn} page={page} setPage={setPage} />
             </Stack>
           </Stack>
-          <Stack alignItems={"center"} style={{ marginBottom: "5.8rem" }}>
+          <Stack alignItems={"center"} style={{ marginBottom: "3.4rem" }}>
             <Typography style={{ fontSize: "3rem", fontWeight: 600 }}>
               Hassle-Free Shipping Solutions
             </Typography>
@@ -188,7 +188,7 @@ const HomePage = () => {
           {/* Services */}
           <Stack
             style={{
-              marginTop: "5rem",
+              marginTop: "2.5rem",
               alignItems: "center",
             }}
             direction="column"
